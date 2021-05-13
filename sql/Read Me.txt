@@ -1,0 +1,9 @@
+Database Name : travelo
+
+Table Name : feedback
+
+columns of table 
+1.fullname
+2.email
+3.service
+4.message

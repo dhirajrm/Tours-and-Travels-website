@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Travelo.com - Flights,Hotels,Car-Rentals</title>
+</head>
+<meta charset="utf-8">
+<link rel = "icon" href ="images/logo3.png" type = "image/x-icon">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Marcellus+SC&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/all.min.js"></script>
+</style>
+</head>
+<body class="main">
+  <!--Navigation Bar-->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"><img class="logo" src="images/logo3.png"><img class="logoname" src="images/logoname.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="aboutus.html">About Us</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Services
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="services.html">Flights</a>
+          <a class="dropdown-item" href="services.html">Hotels</a>
+          <a class="dropdown-item" href="services.html">Car-Rentals</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="services.html">More</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="gallary.html">Gallary</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contactus.html">Contact us</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+</header>
+
+<section style=" background-image: url('images/formbg.jpg'); background-repeat: no-repeat; width: 100%; 
+background-size: cover;">
+
+<!--Address-->
+
+<section class="container-fluid padding pt-4 m-6">
+  <div class="row container-fluid">
+      <div class="col my-6 col-md-6 col-lg-6 col-sm-12 padding">
+        <iframe class="d-flex" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.2095923952234!2d72.97369501437842!3d19.1860458534911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b8d8ac095ecd%3A0xa0a0c2892f6eee96!2sThane%20Station!5e0!3m2!1sen!2sin!4v1576898216597!5m2!1sen!2sin" width="100%" height="320" frameborder="1"  allowfullscreen=""></iframe>
+      </div>
+      <div class="col col-md-6 col-lg-6 col-sm-12">
+          <h5 class="text-light">Address</h5>
+          <p class="text-light">F-07, 1'st Floor,North Block,Sacred World Mall,old Agra road,Thane-411040,Maharashtra,India</p>
+          <h5 class="text-light">Contacts</h5>
+          <p class="text-light">MOB: 9756345876 / 8976432670   TEL : 0234569540</p>
+          <a class="link" href="">travelo@gmail.com</a class="link">
+            <br>
+          <h5 class="text-light">Our Branches</h5> 
+          <a class="link" href="">Pune</a class="link"><br>  
+              <a class="link" href="">Chennai</a class="link"><br>
+              <a class="link" href="">Delhi</a class="link"><br>  
+  </div>
+  </div>
+</section>
+
+<!--Form starts-->
+<form action="connect.php" method="POST" >
+  <div class="container formpd padding">
+      <h2 class="text-center text-light heading mb-4">FEEDBACK</h2>
+      <div class="input-group mb-4">
+       <input type="text" name="fullname" placeholder="Full Name" class="form-control" aria-label="fullname">
+      </div>
+    
+      <div class="input-group mb-4">
+        <input type="email" name="email" placeholder="Your Email Address" class="form-control" aria-label="email" aria-describedby="basic-addon2">
+      </div>
+    
+    <div class="input-group mb-4">
+      <div class="input-group-prepend">
+        <span class="input-group-text">Message for Us</span>
+      </div>
+      <textarea name="message" class="form-control" aria-label="message"></textarea>
+    </div>
+  
+    <button type="submit" value="submit" class="btn btn-outline-light">Submit</button>
+  </div>
+</form>
+  
+
+<section class="container text-center">
+    <div class="text-center ">
+        <h3 class="heading text-light">CONNECT WITH US</h3>
+        <i style="color: orange;" class=" display-3 mx-4 fab fa-facebook-square"></i>
+        <i style="color: orange;" class="display-3 mx-4 fab fa-instagram"></i>
+        <i style="color: orange;" class="display-3 mx-4 fab fa-twitter-square"></i>
+        
+        <hr>
+
+    </div>
+</section>
+
+<!--Footer Starts-->
+<footer class="info text-White bg-warning text-center">
+  <div>
+  <strong class="text-White  text-center">Copyright &copy; 2019 Travelo.com</strong>
+  </div>
+  </footer>
+  </body>
+  </html>
